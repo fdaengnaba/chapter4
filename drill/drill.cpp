@@ -3,23 +3,28 @@
 int main()
 {
 	double a;
-	double b;
-	while (cin >> a >> b)
+	double largest;
+	double smallest;
+
+	cin >> a;
+	largest = a;
+	smallest = a;
+	cout << a << '\n';
+
+	while (cin >> a)
 	{
-		if (a == b)
+		cout << a;
+		if (a > largest)
 		{
-			cout << "The numbers are equal\n";
+			largest = a;
+			cout << " the largest so far.\n";
+		}
+		else if (a < smallest)
+		{
+			smallest = a;
+			cout << " the smallest so far.\n";
 		}
 		else
-		{
-			double small = min(a, b);
-			double large = max(a, b);
-			cout << "the smaller value is: " << small << '\n';
-			cout << "the larger value is: " << large << '\n';
-			if (large - small < 1.0 / 100)
-			{
-				cout << "the numbers are almost equal\n";
-			}
-		}
+			cout << "\n";
 	}
 }
