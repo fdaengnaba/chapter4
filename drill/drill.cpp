@@ -6,6 +6,9 @@ int main()
 	int b;
 	while (cin >> a >> b)
 	{
-		cout << a << ' ' << b << '\n';
+		int small = min(a, b);
+		int large = max(a, b);
+		cout << "the smaller value is: " << small << '\n';
+		cout << "the larger value is: " << large << '\n';
 	}
 }
