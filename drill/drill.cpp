@@ -3,10 +3,12 @@
 int main()
 {
 	double a;
+	string unit;
 	double largest;
 	double smallest;
 
 	cin >> a;
+	cin >> unit;
 	largest = a;
 	smallest = a;
 	cout << a << '\n';
