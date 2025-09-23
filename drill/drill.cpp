@@ -16,6 +16,10 @@ int main()
 			double large = max(a, b);
 			cout << "the smaller value is: " << small << '\n';
 			cout << "the larger value is: " << large << '\n';
+			if (large - small < 1.0 / 100)
+			{
+				cout << "the numbers are almost equal\n";
+			}
 		}
 	}
 }
