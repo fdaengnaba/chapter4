@@ -2,8 +2,8 @@
 
 int main()
 {
-	int a;
-	int b;
+	double a;
+	double b;
 	while (cin >> a >> b)
 	{
 		if (a == b)
@@ -12,8 +12,8 @@ int main()
 		}
 		else
 		{
-			int small = min(a, b);
-			int large = max(a, b);
+			double small = min(a, b);
+			double large = max(a, b);
 			cout << "the smaller value is: " << small << '\n';
 			cout << "the larger value is: " << large << '\n';
 		}
