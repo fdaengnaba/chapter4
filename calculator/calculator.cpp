@@ -56,8 +56,13 @@ int to_digit(string input)
 	}
 	else
 	{
-
+		for (int i = 0; i < 10; ++i)
+		{
+			if (input == digits[i])
+			{
+				return i;
+			}
+		}
+		return -1;
 	}
-
-	return -1;
 }
