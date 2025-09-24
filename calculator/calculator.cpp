@@ -1,18 +1,22 @@
 // simple postfix calculator
 #include <std_lib_facilities.h>
 
+int to_digit(string input);
+
 int main()
 {
-	double operand1;
-	double operand2;
+	string arg1;
+	string arg2;
 	char op;
 
 	cout << "To use:\noperand operand operator\n";
 	cout << "Example: 10 10 +\n";
 	cout << "supported operator: +-*/\n";
 
-	while (cin >> operand1 >> operand2 >> op)
+	while (cin >> arg1 >> arg2 >> op)
 	{
+		int operand1 = to_digit(arg1);
+		int operand2 = to_digit(arg2);
 		switch (op)
 		{
 		case '+':
@@ -32,4 +36,9 @@ int main()
 			break;
 		}
 	}
+}
+
+int to_digit(string input)
+{
+	return 1;
 }
