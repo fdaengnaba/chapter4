@@ -17,6 +17,12 @@ int main()
 	{
 		int operand1 = to_digit(arg1);
 		int operand2 = to_digit(arg2);
+		if (operand1 == -1 || operand2 == -1)
+		{
+			cout << "input error\n";
+			continue;
+		}
+
 		switch (op)
 		{
 		case '+':
@@ -40,5 +46,18 @@ int main()
 
 int to_digit(string input)
 {
-	return 1;
+	vector<string> digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+	if (input.size() == 1)
+	{
+		if (input[0] >= '0' && input[0] <= '9')
+			return int(input[0] - '0');
+		else
+			return -1;
+	}
+	else
+	{
+
+	}
+
+	return -1;
 }
