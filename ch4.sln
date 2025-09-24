@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "guessing", "guessing\guessi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculator", "calculator\calculator.vcxproj", "{026D3CD5-0F9B-45AB-944B-949205539C6E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "digit_to_spelled", "digit_to_spelled\digit_to_spelled.vcxproj", "{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{026D3CD5-0F9B-45AB-944B-949205539C6E}.Release|x64.Build.0 = Release|x64
 		{026D3CD5-0F9B-45AB-944B-949205539C6E}.Release|x86.ActiveCfg = Release|Win32
 		{026D3CD5-0F9B-45AB-944B-949205539C6E}.Release|x86.Build.0 = Release|Win32
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Debug|x64.ActiveCfg = Debug|x64
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Debug|x64.Build.0 = Debug|x64
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Debug|x86.Build.0 = Debug|Win32
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Release|x64.ActiveCfg = Release|x64
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Release|x64.Build.0 = Release|x64
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Release|x86.ActiveCfg = Release|Win32
+		{FCABC3D9-0B9D-4762-83FA-C0C7C47C6872}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
